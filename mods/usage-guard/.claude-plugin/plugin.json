@@ -1,0 +1,20 @@
+{
+  "name": "usage-guard",
+  "version": "0.1.0",
+  "description": "Asks before a large or token-heavy prompt is sent, showing your 5-hour and weekly usage and an estimate of what it may cost",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "minTokens": {
+      "type": "number",
+      "title": "Large prompt size (tokens)",
+      "description": "Ask before sending a prompt of roughly this many tokens or more",
+      "default": 1500
+    },
+    "broadScope": {
+      "type": "boolean",
+      "title": "Ask for whole-codebase wording",
+      "description": "Also ask when a prompt says things like 'the entire codebase' or 'every file'",
+      "default": true
+    }
+  }
+}

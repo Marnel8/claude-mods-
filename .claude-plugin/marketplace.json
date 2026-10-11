@@ -1,0 +1,16 @@
+{
+  "name": "local-mods",
+  "owner": { "name": "Marnel" },
+  "plugins": [
+    {
+      "name": "model-badge",
+      "source": "./mods/model-badge",
+      "description": "Shows the model in use above the prompt, colored by family, with a walking pixel mascot."
+    },
+    {
+      "name": "usage-guard",
+      "source": "./mods/usage-guard",
+      "description": "Asks before a large or token-heavy prompt is sent, showing your 5-hour and weekly usage."
+    }
+  ]
+}

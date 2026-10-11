@@ -1,0 +1,6 @@
+{
+  "name": "model-badge",
+  "version": "0.1.0",
+  "description": "Shows the model in use above the prompt, colored by family: Sonnet in blues, Opus and the latest model in reds.",
+  "types": "./types/index.d.ts"
+}
