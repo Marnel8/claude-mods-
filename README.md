@@ -12,8 +12,8 @@ Marnel's Claude Code mods.
 In a terminal Claude Code session:
 
 ```
-/plugin install model-badge --marketplace Marnel8/claude-mods
-/plugin install usage-guard --marketplace Marnel8/claude-mods
+/plugin install model-badge --marketplace Marnel8/claude-mods-
+/plugin install usage-guard --marketplace Marnel8/claude-mods-
 ```
 
 Answer `y` to add the marketplace, then pick the user scope. Both mods are active in every session after that.
